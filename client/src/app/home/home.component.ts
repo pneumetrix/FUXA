@@ -437,6 +437,7 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
                         bounds: true,
                         boundsPadding: 0.05,
                         initialZoom: 0.3,
+                        autocenter: true,
                     });
                 }
                 this.container.nativeElement.style.overflow = 'hidden';
