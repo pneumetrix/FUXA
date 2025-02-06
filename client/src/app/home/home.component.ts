@@ -436,7 +436,7 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
                     panzoom(element, {
                         bounds: true,
                         boundsPadding: 0.05,
-                        startScale: 0.3,
+                        initialZoom: 0.3,
                     });
                 }
                 this.container.nativeElement.style.overflow = 'hidden';
